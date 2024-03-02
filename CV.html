@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CV.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
     <!-- To make the form responsive -->
     <script>
@@ -21,8 +24,9 @@
             if (nameValue === "" || emailValue === "") {
                 alert("Please fill in all the fields.");
                 return false;
-            }
-            return true;
+            } else {
+    alert("Resume is Sent");
+  }
         }
     </script>
 
@@ -38,7 +42,7 @@
                 <i class="material-icons" id="m">person</i><span>Male</span>
                 <i class="fa fa-calendar"></i><span>28-12-2003</span>
                 <i class="material-icons">place</i><span>New Delhi</span>
-                <a href="#" class="fa fa-linkedin" id="lidi"></a><span><a href="https://www.linkedin.com/in/abishek-m-2aaaa2260/" target="_blank">Abishek M</a></span>
+                <a href="#" class="fa-brands fa-linkedin" id="lidi"></a><span><a href="https://www.linkedin.com/in/abishek-m-2aaaa2260/" target="_blank">Abishek M</a></span>
             </div>
            
             <div class="skills">
@@ -231,12 +235,14 @@
 <!-- form to download the resume -->
 
 <div class="form">
-    <h2 id="download">Fill for Resume</h2><br>
+    <h2 id="download">Fill for Resume</h2>
+    <h6>(Click on Name and Email to fill the Form)</h6><br>
     <form name="form1" action="#" onsubmit="return required()">
         <div class="submit">
-            <a href="#enter1">Name:</a> <input id="enter1" type='text' name='name'/><br><br>
-            <a href="#enter2">Email ID:</a> <input id="enter2" type='text' name='email'/><div><br>
-            <div  class="submit" >
+            <a href="#enter1">Name:</a> <input id="enter1" type='text' name='name'/><br>
+            <a href="#enter2">Email ID:</a> <input id="enter2" type='text' name='email'><br>
+            <a href="#enter3">Contact No.</a> <input id="enter3" type='text' name='Contact no.'/><br><br><div>
+            <div  class="submit">
                 <input id="button1" type="submit" value="Download">
                 <input id="button2" type="button" value="Cancel">
             </div>
