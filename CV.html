@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CV.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- To make the form responsive -->
+    <script>
+        function required() {
+            var nameValue = document.form1.name.value.trim();
+            var emailValue = document.form1.email.value.trim();
+            
+            if (nameValue === "" || emailValue === "") {
+                alert("Please fill in all the fields.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</head>
+<body>
+    
+    <div class="main" id="up">
+        <div class="left">
+            <div class="image" >
+                <img src="pic.jpg" alt="Dp">
+            </div>
+            <div class="data">
+                <i class="material-icons" id="m">person</i><span>Male</span>
+                <i class="fa fa-calendar"></i><span>28-12-2003</span>
+                <i class="material-icons">place</i><span>New Delhi</span>
+                <a href="#" class="fa fa-linkedin" id="lidi"></a><span><a href="https://www.linkedin.com/in/abishek-m-2aaaa2260/" target="_blank">Abishek M</a></span>
+            </div>
+           
+            <div class="skills">
+                <h3 id="#skill">SKILLS</h3>
+                <h4>MySQL</h4>
+                <div class="line">
+                <div class="fill" style="width: 70%;" >70%</div>
+                </div>
+                <h4>C Programming</h4>
+                <div class="line">
+                <div class="fill" style="width: 50%;" >50%</div>
+                </div>
+                <h4>OOPS</h4>
+                <div class="line">
+                <div class="fill" style="width: 35%;" >35%</div>
+                </div>
+                <h4>HTML</h4>
+                <div class="line">
+                <div class="fill" style="width: 60%;" >60%</div>
+                </div>
+                <h4>CSS</h4>
+                <div class="line">
+                <div class="fill" style="width: 60%;">60%</div>
+                </div>
+                <h4>Python</h4>
+                <div class="line">
+                <div class="fill" style="width: 60%;" >60%</div>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="line">
+                <div class="fill" style="width: 35%;">35%</div>
+                </div>
+
+            </div>
+            
+            <div class="lang">
+                <h3>LANGUAGES</h3>
+                <ol class="list">
+                    <!-- make it hover -->
+                    <li> English </li>
+                    <li> Tamil </li>
+                    <li> Hindi </li>
+                    <li> Kannada </li>
+                    <li> Japanese</li>
+                </ol>
+                <h3>Hobbies</h3>
+            <ul class="list">
+                <li>Watching Anime</li>
+                <li>Surfing Social Media</li>
+                <li>listening to Music</li>
+            </ul>
+                <h3>Weakness</h3>
+            <ul class="list">
+                <li>OCD</li>
+                <li>Over Possessive</li>
+                <li>Hate Delays</li>
+            </ul>
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class=nav>
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about"><b>Intro</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education"><b>Education</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><b>Projects</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#certificates" tabindex="-1"><b>Courses</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#download" tabindex="-1"><b>Download</b></a>
+                  </li>
+                </ul>
+                </div>
+            <h1>Abishek M</h1>
+            <p class="role">Fresher</p><hr>
+            <div class="about">
+                <h2 id="about">About Me</h2>
+                <div class="info">I'm a dedicated BCA student at Maharishi Dayanand University. Passion drives me in all aspects of my life, fueling my ambition and commitment to excellence. Known for my strong work ethic, I thrive in environments that challenge me to grow and innovate. Punctuality is not just a habit but a value I hold dear, ensuring I always meet deadlines and exceed expectations. With a relentless drive to succeed, I am eager to make a meaningful impact in the world of technology and beyond.
+                </div>
+                
+            </div>
+            <div class="education">
+                <h2 class="ALI" id="education">Education</h2>
+                <ul>
+            <!-- Graduation Detals -->
+            <div class="box">
+                    <li>
+                    <p><b>Bachelor's Degree</b></p>
+                    <p>Degree: Bachelor of Computer Application (BCA)</p>
+                    <p>Pass Out: 2021-2024</p>
+                    <p>Perc: 71.4</p>
+                    <p>College: M.E.R.I. College Of Engineering and Technology</p>
+                </li>
+            </div>
+               <!-- 12th Details -->
+                <div class="box">
+                    <li>
+                    <p><b>High Schooling</b></p>
+                    <p>Stream: Commerce with IP</p>
+                    <p>Pass Out: 2021</p>
+                    <p>Perc: 80.4</p>
+                    <p>School: D.T.E.A. Sr. Sec. School</p>
+                    </li>
+                </div>
+                <!-- 10th Details -->
+                <div class="box">
+                    <li>
+                    <p><b>Senior Schooling</b></p>
+                    <p>Stream: Commerce with IP</p>
+                    <p>Pass Out: 2019</p>
+                    <p>Perc: 70</p>
+                    <p>School: D.T.E.A. Sr. Sec. School</p>
+                    </li>
+                </div>
+
+            </ul>
+            </div>
+            <div class="dis">
+                <h2 id="projects">Projects</h2>
+                <ul class="project">
+               <li>Amazon Replica <ul>
+                <li style="list-style-type: none; font-size: 1.05rem;margin-left:25px" class="light">Using HTML and CSS</li>
+               </ul></li>
+               <li>Data Analysis Using AI
+                <ul>
+                    <li style="list-style-type: none; font-size: 1.05rem;margin-left:12px" class="light">Using Sweetwiz and Dtale</li>
+               </li>
+                </ul>
+            </div>
+               <div class="dis">
+                <h2 id="certificates">Certificates</h2>
+                <ul class="cert">
+                    <li>Cyber Security
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">Cisco</li>
+                        </ul>
+                    </li>
+                    <li>Data Analyst
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Data Visualisation using AI
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Data Visualisation in Py
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Data Visualisation in Excel
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Data Visualisation with Py
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Machine Learning in Py
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    <li>Google Analytics
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">Google</li>
+                        </ul>
+                    </li>
+                    <li>Front-End Development
+                        <ul>
+                            <li style="list-style-type: none;font-size: 1.05rem;margin-left:25px" class="light">IBM</li>
+                        </ul>
+                    </li>
+                    
+                     </ul>
+               </div><hr>
+
+<!-- form to download the resume -->
+
+<div class="form">
+    <h2 id="download">Fill for Resume</h2><br>
+    <form name="form1" action="#" onsubmit="return required()">
+        <div class="submit">
+            <a href="#enter1">Name:</a> <input id="enter1" type='text' name='name'/><br><br>
+            <a href="#enter2">Email ID:</a> <input id="enter2" type='text' name='email'/><div><br>
+            <div  class="submit" >
+                <input id="button1" type="submit" value="Download">
+                <input id="button2" type="button" value="Cancel">
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
